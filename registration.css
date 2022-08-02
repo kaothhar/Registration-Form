@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: magenta;
+    color: teal;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 10px;
+}
+
+hr {
+    color: gold;
+    width: 740px;
+    margin: 18px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.first {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.input {
+    width: 100%;
+    background-color: gold;
+    padding: 10px;
+    color: teal;
+}
+
+.account {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.upload {
+    margin: 10px;
+    width: 100%;
+    padding-right: 5px;
+}
+
+.me {
+    background-color: gold;
+    width: 50%;
+    color: teal;
+}
+#file {
+    background-color: gold;
+    width: 97%;
+    padding: 10px;
+    color: teal;
+    cursor: pointer;
+}
+
+button {
+    background-color: black;
+    width: 60%;
+    color: teal;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#age {
+    background-color: gold;
+    width: 97%;
+    padding: 10px;
+    color: teal;
+}
+
+select {
+    width: 97%;
+    padding: 6px;
+}
+
+.me {
+    width: 98%;
+    color: teal;
+}

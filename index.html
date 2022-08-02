@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <div class="first">
+        <h1>Registration Form</h1>
+        <p>Please fill out this form with the required information</p>
+    </div>
+
+    <form action="">
+        <section class="container">
+            <label for="">Enter Your first Name:
+                <input type="text" name="first-name" value="" class="input">
+            </label>
+            <br>
+
+            <label for="">Enter Your Last Name:
+                <input type="text" name="last-name" value="" class="input">
+            </label>
+            <br>
+            <label for="">Enter Email:
+                <input type="Email" name="Email" value="" class="input">
+            </label>
+            <br>
+            <label for="">Create a New Password:
+                <input type="password" name="password" value="" class="input">
+            </label>
+        </section>
+
+        <hr />
+        <section class="second">
+            <div class="account">
+                <input type="radio" name="account" id="" value="" class="radio">
+                <label for="account">Personal account</label>
+            </div>
+            <div class="account">
+                <input type="radio" name="account" id="" value="" class="radio">
+                <label for="account">Business account</label>
+            </div>
+            <div class="account">
+                <input type="checkbox" name="account" id="" value="" class="radio">
+                <label for="account">I accept the <a href="">terms and coditions</a></label>
+            </div>
+        </section>
+        <hr>
+        <div class="upload">
+            <label>
+                <p>Upload a profile picture</p>
+                <input type="file" name="file" id="file">
+            </label>
+            <br>
+
+            <label for="input">Input your age(years):
+                <input type="number" name="age" value="" id="age">
+            </label>
+            <br>
+
+            <label for="">How did you hear about us?<br>
+                <select name="about us">
+                    <option>(select one)</option>
+                    <option value="">website</option>
+                    <option value="">friend</option>
+                    <option value="">family</option>
+                    <option value="">social media</option>
+                </select>
+            </label>
+            <br>
+            <label for="bio" class="bio">Provide a bio:<br>
+                <textarea name="bio" rows="4" cols="50" class="me"
+                    placeholder="i like coding on the beach..."></textarea>
+            </label>
+        </div>
+
+        <button>Submits</button>
+    </form>
+</body>
+
+</html>
